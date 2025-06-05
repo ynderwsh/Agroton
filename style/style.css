@@ -122,8 +122,50 @@ body{
     margin-bottom: 90px;
 }
 
+
 .about__achivement{
     border-radius: 20px;
-    background-color: #f4f4f7;
+    background-color: #F4F4E7;
     max-width: 580px;
+    padding: 14px 10px;
+    display: flex;
+    gap: 0 25px;
+}
+
+.about__achivement-arrow{
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    right: 0;
+    top: 5px;
+}
+
+
+.about__achivement-imgbox{
+    min-width: 214px;
+    position: relative;
+}
+
+
+.about__achivement-title{
+    margin-bottom: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.about__achivement-text{
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 14px;
+
+}
+
+
+.text--bold{
+    font-weight: bold;
+}
+
+.text--orange{
+    color:#F2A531;
 }
