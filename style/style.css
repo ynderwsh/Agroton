@@ -169,3 +169,36 @@ body{
 .text--orange{
     color:#F2A531;
 }
+
+.about__stats{
+    background-color: #F4F4E7;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1420px;
+    border-radius: 20px;
+    padding: 30px 18px;
+
+}
+
+.about__stats-item{
+    text-align: center;
+    width: 300px;
+}
+
+
+.about__stats-item dt{
+    font-size: 40px; 
+    font-family: 'WorkSans-SemiBold';
+    margin-bottom: 15px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+
+.about__stats-item dd{
+    font-size: 22px;
+    margin: 0;
+    font-weight: 300;
+    opacity: .7;
+    color: #0E0D0D;
+}
