@@ -191,7 +191,8 @@ body{
     font-family: 'WorkSans-SemiBold';
     margin-bottom: 15px;
     padding-top: 50px;
-    padding-bottom: 25px;
+    padding-bottom: 25px;   
+    margin-top: 0px;
 }
 
 
@@ -201,4 +202,5 @@ body{
     font-weight: 300;
     opacity: .7;
     color: #0E0D0D;
+    padding-bottom: 40px;
 }
