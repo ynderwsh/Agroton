@@ -204,3 +204,67 @@ body{
     color: #0E0D0D;
     padding-bottom: 40px;
 }
+
+
+.about__progress-text{
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: 'WorkSans-Light';
+    margin-bottom: 40px;
+}
+
+.about__progress-text span{
+    font-weight: 500;
+    font-family: 'WorkSans-Medium';
+}
+
+.about__progress-box{
+    display: flex;
+    gap: 140px;
+}
+
+.about__progress-boxtext{
+    font-size: 18px;
+    margin-bottom: 45px;
+    padding-right: 50px;
+    margin-top: 0px;
+}
+
+.about__progress-boxtext .text--orange{
+    color: #F2A531;
+}
+
+.about__progress-table{
+    margin-inline-start: 40px ;
+    border-top: 1px solid rgba(14, 13, 13, .23);
+    margin-left: 0px;
+}
+
+.about__progress-item{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(14, 13, 13, .23);
+    font-size: 18px;
+}
+
+.about__progress-item dd{
+    opacity: 0.71;
+    font-weight: 500;
+}
+
+
+.about__progress-item dt span{
+    color: #F2A531;
+    font-weight: 600;
+}
+
+
+.products__wrapper{
+    padding: 50px 0;
+    background-color: #F4F4E7;
+    border-radius: 20px;
+}
+
